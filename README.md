@@ -6,7 +6,7 @@ This is a docker-based dev environment for CS370-101: Intro to Artificial Intell
 
 It currently includes the following tools:
 
-* an empty library called `artagents` that includes code / logic imported across assignments and projects.
+* a library called `artagents` that includes code / logic imported across assignments and projects.
 * a `project` directory for project source code. The documentation for the project is stored separately in the `docs` directory. 
 * a `docs` directory that contains the source code of a [quarto](https://quarto.org/) based publishing system with markdown (qmd) and `ipynb` notebooks content. The docs folder is used to publish project work. 
 * an empty CLI tool that should be based on `typer`, optionally used to implement a CLI for projects or assignments. 
